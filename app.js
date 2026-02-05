@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumero();
 console.log(numeroSecreto);
 let tentativas = 1;
@@ -13,7 +13,7 @@ responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 
 function mostrarMensagemInicial(){
 exibirTextoNaTela('h1', 'Bem vindo ao Numero Secreto');
-exibirTextoNaTela('p', 'digite um numero de 1 a 10');
+exibirTextoNaTela('p', 'Digite um numero de 1 a 100');
 
 }
 
